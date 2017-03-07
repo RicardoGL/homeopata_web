@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.sass"],"names":[],"mappings":"AAAA;EACC,gBAAgB;EAChB,WAAW;EACX,gBAAgB,EAAG","file":"app.css","sourcesContent":["body {\n\tbackground: red;\n\tcolor: red;\n\tfont-size: 14px; }\n"]}
