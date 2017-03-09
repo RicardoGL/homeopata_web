@@ -16,5 +16,5 @@ var elixir = require('laravel-elixir');
 // });
 
 elixir(function(mix) {
-    mix.sass('app.sass','public/assets/css');
+    mix.sass('estilos.sass','public/assets/css');
 });

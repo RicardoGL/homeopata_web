@@ -1,0 +1,129 @@
+/***********/
+/*Content***/
+/***********/
+
+*
+	padding: 0
+	margin: 0
+
+.anchoRow
+	margin-right: 0
+	margin-left: 0
+
+.anchoCol
+	padding-right: 0 
+	padding-left: 0
+
+.anchoContainer
+	padding-right: 0 
+	padding-left: 0
+
+//**********************
+//******* Fonts ********
+//**********************
+
+@font-face
+	font-family: london_light
+	src: url(../fonts/LondonLight.ttf)
+
+@font-face
+	font-family: london_regular
+	src: url(../fonts/LondonRegular.ttf)
+
+@font-face
+	font-family: london_bold
+	src: url(../fonts/LondonBold.ttf)
+
+//****************************
+//********** Header **********
+//****************************
+
+header
+	background-color: $verdeLimon
+	height: 160px
+
+#logoNav
+	margin-top: 25px
+
+//****************************
+//********** Footer **********
+//****************************
+
+footer
+	background-color: $verdeLimon
+	height: 80px
+
+#logoFooter
+	width: 50px
+	margin-top: 10px
+	margin-left: 10px
+	
+//****************************
+//********** Home ************
+//****************************
+
+#lineNav
+	background-color: $verdeCircle
+	height: 5px
+	margin-bottom: -22px
+	margin-top: 70px
+	width: 130px
+
+.normal
+	background-color: $verdeCircle
+	border-radius: 50%
+	color: white
+	display: inline-block
+	height: 50px
+	margin-bottom: 25px
+	margin-left: 35px
+	margin-right: 35px
+	padding: 14px
+	width: 50px
+
+#bg_index
+	background-color: $verdeCircle
+	height: 400px
+	margin-bottom: 90px
+	margin-top: 40px
+
+form
+	margin-top: 100px
+	label
+		color: white
+		float: right
+		font-family: 'Roboto', sans-serif
+		font-size: 15px
+	p
+		color: white
+		font-family: 'Roboto', sans-serif
+		font-size: 17px
+		margin-top: 30px
+	.btn-default
+		background-color: $verdeLimon
+		border-radius: 0px
+		border: 0px
+		color: white
+		font-family: 'Roboto', sans-serif
+		font-size: 20px
+		font-weight: 400
+		height: 45px
+		margin-top: 40px
+		transition: .3s
+		width: 150px
+		&:hover
+			background-color: white
+			color: $verdeLimon
+
+.form-control
+	float: left
+	font-family: 'Roboto', sans-serif
+	width: 70%
+
+//****************************
+//******* MEDIAS QUERIS ******
+//****************************
+
+@media screen and (max-width: 1200px)
+	#portadaSlider
+		width: 125%

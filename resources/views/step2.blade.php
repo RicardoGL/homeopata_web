@@ -28,7 +28,7 @@
                         <center>
                           <hr id="lineNav">
                           <a href="/"><div class="normal"><i class="fa fa-check" aria-hidden="true"></i></div></a>
-                          <a href="step2"><div class="normal">2</div></a>
+                          <a href="step2"><div class="normal"><i class="fa fa-check" aria-hidden="true"></i></div></a>
                         </center>
                     </div>
                 </div>
@@ -44,24 +44,13 @@
                               <div class="form-group">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                        <label>CORREO</label>
+                                        <label>INGRESAR CODIGO</label>
                                     </div>
                                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                                        <input type="text" class="form-control" placeholder="jesus@neuland.com.mx" required>
+                                        <input type="password" class="form-control" placeholder="**********" required>
                                     </div>
                                 </div>
                               </div>
-                              <div class="form-group">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                        <label>FECHA DE NACIMIENTO</label>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                                        <input type="date" class="form-control" required>
-                                    </div>
-                                </div>
-                              </div>
-                              <p>Te enviaremos un mensaje SMS para confirmar tu cuenta</p>
                               <button type="submit" class="btn btn-default">Enviar</button>
                             </form>
                         </center>

@@ -1,0 +1,119 @@
+/***********/
+/*** SASS **/
+/***********/
+/***********/
+/*Variables*/
+/***********/
+/***********/
+/*Mixins****/
+/***********/
+/***********/
+/*Content***/
+/***********/
+* {
+  padding: 0;
+  margin: 0; }
+
+.anchoRow {
+  margin-right: 0;
+  margin-left: 0; }
+
+.anchoCol {
+  padding-right: 0;
+  padding-left: 0; }
+
+.anchoContainer {
+  padding-right: 0;
+  padding-left: 0; }
+
+@font-face {
+  font-family: london_light;
+  src: url(../fonts/LondonLight.ttf); }
+
+@font-face {
+  font-family: london_regular;
+  src: url(../fonts/LondonRegular.ttf); }
+
+@font-face {
+  font-family: london_bold;
+  src: url(../fonts/LondonBold.ttf); }
+
+header {
+  background-color: #7dc20f;
+  height: 160px; }
+
+#logoNav {
+  margin-top: 25px; }
+
+footer {
+  background-color: #7dc20f;
+  height: 80px; }
+
+#logoFooter {
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px; }
+
+#lineNav {
+  background-color: #008a3e;
+  height: 5px;
+  margin-bottom: -22px;
+  margin-top: 70px;
+  width: 130px; }
+
+.normal {
+  background-color: #008a3e;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  height: 50px;
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding: 14px;
+  width: 50px; }
+
+#bg_index {
+  background-color: #008a3e;
+  height: 400px;
+  margin-bottom: 90px;
+  margin-top: 40px; }
+
+form {
+  margin-top: 100px; }
+  form label {
+    color: white;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; }
+  form p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-top: 30px; }
+  form .btn-default {
+    background-color: #7dc20f;
+    border-radius: 0px;
+    border: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 45px;
+    margin-top: 40px;
+    transition: .3s;
+    width: 150px; }
+    form .btn-default:hover {
+      background-color: white;
+      color: #7dc20f; }
+
+.form-control {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  width: 70%; }
+
+@media screen and (max-width: 1200px) {
+  #portadaSlider {
+    width: 125%; } }
+
+/*# sourceMappingURL=estilos.css.map */
