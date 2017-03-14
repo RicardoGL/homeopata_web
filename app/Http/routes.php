@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::auth();
 
-Route::get('/step2', function () {
-    return view('step2');
-});
+Route::get('/home', 'HomeController@index');
+
+Route::get('/login', 'DoctorController@index');
+
+Route::get('/login/code', 'DoctorController@autenticate');
+
+Route::get('/user/register',  'DoctorController@register');
+Route::post('/user/register', 'DoctorController@CreatePatient');
