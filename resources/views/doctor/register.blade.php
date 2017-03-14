@@ -31,6 +31,7 @@
                     <label for="name">Nombre</label>
                     <input type="text" class="form-control" name="name">
                     {{  csrf_field() }}
+                    <input type="hidden" name="city" value="MX">
                 </div>
                 <div class="form-group">
                     <label for="lastname">Apellido</label>

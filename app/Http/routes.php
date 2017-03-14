@@ -20,4 +20,7 @@ Route::get('/login', 'DoctorController@index');
 Route::get('/login/code', 'DoctorController@autenticate');
 
 Route::get('/user/register',  'DoctorController@register');
-Route::post('/user/register', 'DoctorController@CreatePatient');
+Route::post('/user/register', 'DoctorController@createPatient');
+
+
+Route::get('/user/patients','DoctorController@patients');

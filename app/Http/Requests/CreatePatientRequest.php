@@ -24,14 +24,13 @@ class CreatePatientRequest extends Request
             'birthday.required' =>  'Proporciona una fecha de nacimiento.',
             'birthday.date_format' =>  'Proporciona un formato válido para la fecha YYYY-mm-dd',
 
-            'cellphone.required' => 'phone se esta ejecutando el require.',
-            'cellphone.numeric' => 'phone se esta ejecutando el numeric.',
-            'cellphone.min' => 'phone se esta ejecutando el min',
-            'cellphone.max' => 'phone se esta ejecutando el max',
-            'cellphone.size' => 'phone se esta ejecutando el size',
-            'cellphone.between' => 'phone se esta ejecutando el between',
+            'cellphone.required' => 'Proporciona un Teléfono celular.',
+            'cellphone.regex' => 'Tu numero celular debe tener 10 digitos(solo números)',
 
             'history.required' => 'Proporciona un historial clinico del paciente.',
+
+            'city.required' => 'Proporciona una ciudad',
+            'city.min' => 'Proporciona el codigo de tu Ciudad mínimo 2 caracteres.'
         ];
     }
     /**
@@ -47,7 +46,8 @@ class CreatePatientRequest extends Request
             'lastname' =>  'required',
             'birthday' =>  'required',
             'cellphone' => 'required|regex:/[0-9]{10}/',
-            'history' =>   'required'
+            'history' =>   'required',
+            'city' => 'required|min:2'
         ];
     }
 }
