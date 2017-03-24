@@ -1,6 +1,7 @@
 
 function menu(){
-	$('.boxAdmin').html('<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">' +
+	$('.boxAdmin').html(
+						'<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">' +
 							'<div class="panel panel-default">' +
 								'<div class="panel-heading" role="tab" id="headingCero">' +
 									'<h4 class="panel-title">' +
@@ -93,5 +94,34 @@ function plantillas(){
 }
 
 function perfil(){
-	$('.boxAdmin').html('<p>Perfil de usuario por empezar</p>');
+	var imgPerfil = "/assets/images/perfil.jpg";
+	$('.boxAdmin').html(
+						'<p>Perfil de usuario</p>' +
+                        '<div class="row boxLeftPerfil">' +
+                            '<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">' +
+                                '<center><img src="'+imgPerfil+'" alt="perfil" width="80%"></center>' +
+                            '</div>' +
+                            '<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">' +
+                                '<ul>' +
+                                    '<li>Nombre: Willie</li>' +
+                                    '<li>Apellidos: Smith Smith</li>' +
+                                    '<li>Edad: 45 años</li>' +
+                                    '<li>Tipo sangre: - O</li>' +
+                                    '<li>Alergias: Paracetamol</li>' +
+                                '</ul>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="row boxRightPerfil">' +
+                            '<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">' +
+                                '<p>' +
+                                    'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod' +
+                                    'tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,' +
+                                    'quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo' +
+                                    'consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse' +
+                                    'cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non' +
+                                    'proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' +
+                                '</p>' +
+                            '</div>' +
+                        '</div>'
+						);
 }

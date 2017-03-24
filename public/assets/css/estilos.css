@@ -214,6 +214,18 @@ form {
   .footerReceta .fa {
     color: #7dc20f; }
 
+.boxLeftPerfil ul {
+  font-family: 'Roboto', sans-serif; }
+  .boxLeftPerfil ul li {
+    text-decoration: none;
+    list-style: none; }
+
+.boxRightPerfil p {
+  margin-top: 2em; }
+  .boxRightPerfil p:hover {
+    background-color: transparent;
+    cursor: default; }
+
 @media screen and (max-width: 768px) {
   form {
     margin-top: 60px; }
