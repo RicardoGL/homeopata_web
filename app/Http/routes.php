@@ -19,5 +19,7 @@ Route::get('/login', 'DoctorController@index');
 
 Route::get('/login/code', 'DoctorController@autenticate');
 
+Route::get('/login/admin', 'DoctorController@adminMenu');
+
 Route::get('/user/register',  'DoctorController@register');
 Route::post('/user/register', 'DoctorController@CreatePatient');

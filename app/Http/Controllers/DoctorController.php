@@ -19,9 +19,16 @@ class DoctorController extends Controller
 
     }
 
+    public function adminMenu(){
+
+        return view('doctor.admin-menu');
+
+    }
+
     public function register(){
 
         return view('doctor.register');
+        
     }
 
     public function CreatePatient(CreatePatientRequest $request){
